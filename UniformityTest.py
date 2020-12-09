@@ -29,22 +29,27 @@ for i in intervals:
 
 
 
+def find_range(number,intervals):
+    for i in intervals:
+        if number < i:
+            return i
+
 
 #########################################################
 # def generate_experiment_probability(x_theory, y_theory, N):
-observation = {}
-for i in Us:
-    observation[i] = 0
-
-for _ in range(0, N - 1):
-    # value = random.randint(0, N) / N
-    for i in Us:
-        if (y_theory[i] >= value) and (i != 0):
-            observation[i] += 1
-            break
-print(observation)
-y_exp = []
-for keys in observation.items():
-    y_exp.append(keys[1] / N)
-# return y_exp
+# observation = {}
+# for i in Us:
+#     observation[i] = 0
+#
+# for _ in range(0, N - 1):
+#     # value = random.randint(0, N) / N
+#     for i in Us:
+#         if (y_theory[i] >= value) and (i != 0):
+#             observation[i] += 1
+#             break
+# print(observation)
+# y_exp = []
+# for keys in observation.items():
+#     y_exp.append(keys[1] / N)
+# # return y_exp
 
