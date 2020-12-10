@@ -7,13 +7,13 @@ n = 40
 SEED = 1505009
 k = 9
 ZU = randNumGenerator(SEED, n)
-
+###################################################
 # UNIFORMITY TEST
 # TASKS:
 # 01 DIVIDE into k sub-Intervals [DONE]
 # 02 Frequency of Ui in that sub interval [DONE]
 # 03 Calculate Kai Square [DONE]
-
+###################################################
 Us = ZU[1]
 print("ALL U's:")
 print(Us)
@@ -88,3 +88,11 @@ def find_range(number,intervals):
 #
 #
 
+
+###################################################
+# SERIAL TEST
+# TASKS:
+# 01 DIVIDE into l = [n/d] Tuples
+# 02 Frequency of Ui in that sub interval
+# 03 Calculate Kai Square
+###################################################
