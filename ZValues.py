@@ -7,7 +7,7 @@ SEED = 1505009
 
 # RANDOM NUMBER GENERATE FUNCTION
 def randNumGenerator(seed, n):
-    print("Generating total ",n,"Random Numbers for the SEED:",seed)
+    # print("Generating total ",n,"Random Numbers for the SEED:",seed)
     # ZvalArray = [1505009]
     # UvalArray = [150509/2**31]
 
@@ -29,13 +29,13 @@ def randNumGenerator(seed, n):
 # TEST FUNCTION
 # CHECKING THE RANDOM NUMBERS
 x = randNumGenerator(SEED,TOTALRANDOMNUMBER)
-print("TOTAL GENERATED Z:")
-print(len(x[0]))
-print("TOTAL GENERATED U:")
-print(len(x[1]))
-
-print("Z Values:")
-print(x[0])
-print("U Values:")
-print(x[1])
+# print("TOTAL GENERATED Z:")
+# print(len(x[0]))
+# print("TOTAL GENERATED U:")
+# print(len(x[1]))
+#
+# print("Z Values:")
+# print(x[0])
+# print("U Values:")
+# print(x[1])
 
