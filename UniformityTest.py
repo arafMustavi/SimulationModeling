@@ -62,6 +62,11 @@ print(kai_square)
 #
 # print(summer)
 
+def find_range(number,intervals):
+    for i in intervals:
+        if number < i:
+            return i
+
 
 #########################################################
 # def generate_experiment_probability(x_theory, y_theory, N):
@@ -82,3 +87,4 @@ print(kai_square)
 # # return y_exp
 #
 #
+

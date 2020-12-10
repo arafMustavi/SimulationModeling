@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74c61842-36f5-4104-8749-1b28fefc034a" name="Default Changelist" comment="" />
+    <list default="true" id="74c61842-36f5-4104-8749-1b28fefc034a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/UniformityTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/UniformityTest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="485ac759-7981-4bef-90d5-f8722eca9e34" />
+  <component name="JupyterTrust" id="06458b3c-f04f-4e48-a8f9-3d80366327d5" />
   <component name="ProjectId" id="1lPI22DEKYxKxGGwXsL0074jl2K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
